@@ -14,6 +14,7 @@ import android.view.View;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.formats.UnifiedNativeAd;
 
 public class SecondActivity extends AppCompatActivity {
 
@@ -23,6 +24,7 @@ public class SecondActivity extends AppCompatActivity {
 
     private AdView mAdView;
     private AdView mAdView1;
+    private UnifiedNativeAd nativeAd;
 
 
 

@@ -39,6 +39,7 @@ public class FoodActivity extends AppCompatActivity {
                 Intent intent=new Intent(FoodActivity.this,FoodActivityDetails.class);
                 intent.putExtra("story",t);
                 startActivity(intent);
+                finish();
 
 
 
