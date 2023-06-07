@@ -7,12 +7,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class FoodActivityDetails extends AppCompatActivity {
 
 
 
 
     TextView textView;
+    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +26,15 @@ public class FoodActivityDetails extends AppCompatActivity {
         Intent intent=getIntent();
         String dStory=getIntent().getStringExtra("story");
         textView.setText(dStory);
+
+
+
+
+        mAdView=findViewById(R.id.adView);
+        AdRequest adRequest=new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
+
 
     }
 

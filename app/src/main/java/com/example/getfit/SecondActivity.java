@@ -12,13 +12,17 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class SecondActivity extends AppCompatActivity {
 
 
 
     int [] newArray;
 
-
+    private AdView mAdView;
+    private AdView mAdView1;
 
 
 
@@ -41,6 +45,17 @@ newArray=new int[]
 
 
         };
+
+
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
+        mAdView1 = findViewById(R.id.adView1);
+        AdRequest adRequest1 = new AdRequest.Builder().build();
+        mAdView1.loadAd(adRequest1);
+
+
 
 
 

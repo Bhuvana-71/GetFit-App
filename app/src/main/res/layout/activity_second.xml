@@ -292,6 +292,37 @@
 
                 </LinearLayout>
 
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <com.google.android.gms.ads.AdView
+                        xmlns:ads="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/adView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        ads:adSize="BANNER"
+                        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+                    </com.google.android.gms.ads.AdView>
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
@@ -301,22 +332,20 @@
 
 
                     <LinearLayout
-                        android:onClick="ImageButtonClicked"
                         android:id="@+id/chair_pose"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-
                         android:layout_margin="10dp"
-                        android:orientation="horizontal"
-                        >
+
+                        android:onClick="ImageButtonClicked"
+                        android:orientation="horizontal">
                         <!-- hi-->
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
-                            android:layout_weight="1.0"
-                            android:orientation="vertical"
-                            >
+                            android:orientation="vertical">
+
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -328,12 +357,12 @@
                                 android:textStyle="bold"
 
                                 />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Times"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                             <TextView
@@ -341,8 +370,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="01:00 MIN"
                                 android:textColor="#ffff5722"
-                                android:textStyle="bold"
-                                />
+                                android:textStyle="bold" />
 
 
                         </LinearLayout>
@@ -360,8 +388,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_3"
-                                />
+                                android:src="@drawable/exersice_3" />
 
 
                         </LinearLayout>
@@ -370,22 +397,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
 
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
-                                android:src="@drawable/baseline_keyboard_arrow_right_24"
-                                />
-
-
-
-
-
+                                android:src="@drawable/baseline_keyboard_arrow_right_24" />
 
 
                         </LinearLayout>
@@ -415,6 +435,21 @@
 
 
                 </LinearLayout>
+
+
+
+               
+
+
+
+
+
+
+
+
+
+
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1647,6 +1682,30 @@
 
 
                 </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <com.google.android.gms.ads.AdView
+                        xmlns:ads="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/adView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        ads:adSize="BANNER"
+                        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+                    </com.google.android.gms.ads.AdView>
+
+                </RelativeLayout>
+
+
+
+
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="100dp"

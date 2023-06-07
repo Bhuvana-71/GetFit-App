@@ -12,6 +12,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class SecondActivity1 extends AppCompatActivity {
 
 
@@ -19,7 +22,7 @@ public class SecondActivity1 extends AppCompatActivity {
     int [] newArray;
 
 
-
+   private AdView mAdView,mAdView1;
 
 
 
@@ -41,6 +44,15 @@ public class SecondActivity1 extends AppCompatActivity {
 
 
                 };
+        mAdView=findViewById(R.id.adView);
+        AdRequest adRequest=new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
+
+
+        mAdView1=findViewById(R.id.adView1);
+        AdRequest adRequest1=new AdRequest.Builder().build();
+        mAdView1.loadAd(adRequest1);
 
 
 
