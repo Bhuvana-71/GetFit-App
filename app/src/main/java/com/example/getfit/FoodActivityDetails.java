@@ -43,4 +43,12 @@ public class FoodActivityDetails extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent=new Intent(FoodActivityDetails.this,FoodActivity.class);
+        startActivity(intent);
+        finish();
+    }
 }
