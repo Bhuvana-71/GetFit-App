@@ -15,8 +15,17 @@ Get Fit App is a Fitness App where different age Group people can do excerises a
 
 
 
+![Screenshot_20230609_194455](https://github.com/Bhuvana-71/GetFit-App/assets/112925214/d67e6ea9-610c-4208-9344-09546a508b7c)
+
+
+
+
+
 ![Screenshot_20230609_194525 (1)](https://github.com/Bhuvana-71/GetFit-App/assets/112925214/8fd2fada-98ab-4386-9d9d-64839c68cc75)
 
+
+
+![Screenshot_20230609_194440](https://github.com/Bhuvana-71/GetFit-App/assets/112925214/b309c304-b141-4bc0-891e-749460ca1e7a)
 
 
 
@@ -24,7 +33,7 @@ Get Fit App is a Fitness App where different age Group people can do excerises a
 
 
 
-![Screenshot_20230609_194440](https://github.com/Bhuvana-71/GetFit-App/assets/112925214/b309c304-b141-4bc0-891e-749460ca1e7a)
+
 
 
 
